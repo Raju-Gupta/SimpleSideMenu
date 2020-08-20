@@ -16,12 +16,7 @@
 		2C9FB33624ED6E3500A7DD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9FB33424ED6E3500A7DD2F /* LaunchScreen.storyboard */; };
 		2C9FB34324ED71C200A7DD2F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34224ED71C200A7DD2F /* BaseViewController.swift */; };
 		2C9FB34624ED72F000A7DD2F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34524ED72F000A7DD2F /* MenuViewController.swift */; };
-		2C9FB34E24ED7B9F00A7DD2F /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34824ED7B9F00A7DD2F /* DesignableImageView.swift */; };
 		2C9FB34F24ED7B9F00A7DD2F /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34924ED7B9F00A7DD2F /* DesignableButton.swift */; };
-		2C9FB35024ED7B9F00A7DD2F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34A24ED7B9F00A7DD2F /* DesignableView.swift */; };
-		2C9FB35124ED7B9F00A7DD2F /* DesignableLetterSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34B24ED7B9F00A7DD2F /* DesignableLetterSpacing.swift */; };
-		2C9FB35224ED7B9F00A7DD2F /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34C24ED7B9F00A7DD2F /* DesignableTextView.swift */; };
-		2C9FB35324ED7B9F00A7DD2F /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB34D24ED7B9F00A7DD2F /* DesignableTextField.swift */; };
 		2C9FB35624ED7E7800A7DD2F /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB35524ED7E7800A7DD2F /* MenuOptionCell.swift */; };
 		2C9FB35824ED813F00A7DD2F /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB35724ED813F00A7DD2F /* ContactViewController.swift */; };
 		2C9FB35A24ED814C00A7DD2F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9FB35924ED814C00A7DD2F /* AboutViewController.swift */; };
@@ -39,12 +34,7 @@
 		2C9FB33724ED6E3500A7DD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "SimpleSideMenu/Supporting Files/Info.plist"; sourceTree = SOURCE_ROOT; };
 		2C9FB34224ED71C200A7DD2F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		2C9FB34524ED72F000A7DD2F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		2C9FB34824ED7B9F00A7DD2F /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
 		2C9FB34924ED7B9F00A7DD2F /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
-		2C9FB34A24ED7B9F00A7DD2F /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
-		2C9FB34B24ED7B9F00A7DD2F /* DesignableLetterSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLetterSpacing.swift; sourceTree = "<group>"; };
-		2C9FB34C24ED7B9F00A7DD2F /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
-		2C9FB34D24ED7B9F00A7DD2F /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
 		2C9FB35524ED7E7800A7DD2F /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
 		2C9FB35724ED813F00A7DD2F /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		2C9FB35924ED814C00A7DD2F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
@@ -64,7 +54,6 @@
 		2C9FB31D24ED6E3300A7DD2F = {
 			isa = PBXGroup;
 			children = (
-				2C92D96924EED614003B56BF /* ScreenShot.png */,
 				2C9FB32824ED6E3300A7DD2F /* SimpleSideMenu */,
 				2C9FB32724ED6E3300A7DD2F /* Products */,
 			);
@@ -92,6 +81,7 @@
 		2C9FB33D24ED6E4C00A7DD2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2C92D96924EED614003B56BF /* ScreenShot.png */,
 				2C9FB32924ED6E3300A7DD2F /* AppDelegate.swift */,
 				2C9FB32B24ED6E3300A7DD2F /* SceneDelegate.swift */,
 				2C9FB33224ED6E3500A7DD2F /* Assets.xcassets */,
@@ -142,11 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				2C9FB34924ED7B9F00A7DD2F /* DesignableButton.swift */,
-				2C9FB34824ED7B9F00A7DD2F /* DesignableImageView.swift */,
-				2C9FB34B24ED7B9F00A7DD2F /* DesignableLetterSpacing.swift */,
-				2C9FB34D24ED7B9F00A7DD2F /* DesignableTextField.swift */,
-				2C9FB34C24ED7B9F00A7DD2F /* DesignableTextView.swift */,
-				2C9FB34A24ED7B9F00A7DD2F /* DesignableView.swift */,
 			);
 			path = Designable;
 			sourceTree = "<group>";
@@ -231,19 +216,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C9FB35024ED7B9F00A7DD2F /* DesignableView.swift in Sources */,
 				2C9FB35624ED7E7800A7DD2F /* MenuOptionCell.swift in Sources */,
 				2C9FB35824ED813F00A7DD2F /* ContactViewController.swift in Sources */,
-				2C9FB35124ED7B9F00A7DD2F /* DesignableLetterSpacing.swift in Sources */,
 				2C9FB32E24ED6E3300A7DD2F /* ViewController.swift in Sources */,
 				2C9FB34624ED72F000A7DD2F /* MenuViewController.swift in Sources */,
-				2C9FB35324ED7B9F00A7DD2F /* DesignableTextField.swift in Sources */,
 				2C9FB34F24ED7B9F00A7DD2F /* DesignableButton.swift in Sources */,
 				2C9FB34324ED71C200A7DD2F /* BaseViewController.swift in Sources */,
 				2C9FB32A24ED6E3300A7DD2F /* AppDelegate.swift in Sources */,
 				2C9FB35A24ED814C00A7DD2F /* AboutViewController.swift in Sources */,
-				2C9FB35224ED7B9F00A7DD2F /* DesignableTextView.swift in Sources */,
-				2C9FB34E24ED7B9F00A7DD2F /* DesignableImageView.swift in Sources */,
 				2C9FB32C24ED6E3300A7DD2F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
